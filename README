@@ -1,0 +1,12 @@
+Briefly justify the structure of your program; why you defined the functions you did, etc
+
+I divided my program into main and multiple helper functions. The user inputs either a, r, or c to specify how the list of all the digraphs/trigraphs and their 
+containing words should print to standard output. I created helper functions (print_ASCII_order, print_reverse_ASCII_order, and print_based_on_count) for each 
+option. I also created helper functions to print information to the screen depending on the user query. print_graphs_with_same_count covers the case in which 
+the user inputs a count and print_graph_count covers the case in which the user inputs a digraph/trigraph. The reasons why I developed these functions were to
+limit the size of main and organize each task into a function.
+
+If applicable: Highlight anything you did that was particularly clever
+
+I utilized the sort and reverse algorithims for vectors provided by the standard template library. This made it easier for me to sort the digraph/trigraphs
+in descending count order in print_based_on_count.
